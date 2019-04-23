@@ -37,7 +37,8 @@
 |
 */
 
-$autoload['packages'] = array();
+// $autoload['packages'] = array();
+$autoload['packages'] = array(APPPATH . 'third_party/smarty');
 
 
 /*
@@ -52,7 +53,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array();
+$autoload['libraries'] = array('database', 'session', 'smarty');
 
 
 /*
